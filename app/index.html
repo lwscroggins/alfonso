@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="FonzApp">
+	<head>
+		<meta charset="UTF-8">
+		<title>Beauty By Alfonso</title>
+		<link rel="stylesheet" href="/css/main.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div id="navbar">
+			<div id="home" class="navlink"><a href="#/home">Home</a></div>
+			<div id="profile" class="navlink"><a href="#/profile">Profile</a></div>
+			<div id="gallery" class="navlink"><a href="#/gallery">Gallery</a></div>
+			<div id="appointments" class="navlink"><a href="#/appointment">Book an Appointment</a></div>
+		</div>
+		<div id="content" data-ng-view>
+			<!-- reserved for views -->
+		</div>
+		<script src="bundle.js"></script>
+	</body>
+</html>
